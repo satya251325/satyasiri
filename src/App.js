@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route} from "react-router-dom";
+import Home from "./routes/Home";
+import Satya from "./routes/Satya";
+import Siri from "./routes/Siri";
+import Koushik from "./routes/Koushik";
+import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. Comment added by Satya
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+      <Route path="/" element={<Home />} />
+        <Route path="/Satya" element={<Satya />} />
+        <Route path="/Siri" element={<Siri />} />
+        <Route path="/Koushik" element={<Koushik />} />
+      </Routes>
+    </>
   );
 }
 
