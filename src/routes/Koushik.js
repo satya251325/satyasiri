@@ -8,9 +8,21 @@ const Koushik =()=>{
 
   // Hard-coded events for demonstration purposes
   const events = {
-    '2023-07-23': ['Event A', 'Event B'],
-    '2023-07-25': ['Event C'],
-    '2023-07-28': ['Event D'],
+    '2023-07-29': ['Muharram Holiday'],
+    '2023-07-31': ['Parent Teacher Meeting'],
+    '2023-08-01': ['Parent Teacher Meeting'],
+    '2023-08-02': ['Parent Teacher Meeting'],
+    '2023-08-03': ['Parent Teacher Meeting'],
+    '2023-08-04': ['Parent Teacher Meeting'],
+    '2023-08-15': ['Independence day'],
+    '2023-08-25': ['Varalakshmi Vratam'],
+    '2023-08-31': ['Rakhi purnima'],
+    '2023-09-05': ['Teachers day'],
+    '2023-09-07': ['Janmashtami'],
+    '2023-09-19': ['Ganesh Chaturthi'],
+    '2023-09-28': ['Eid Miladun Nabi'],
+    '2023-10-02': ['Gandhi Jayanthi'],
+
   };
 
   const renderHeader = () => {
