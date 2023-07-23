@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/satyasiri/static/css/main.1c8339e1.css",
-    "main.js": "/satyasiri/static/js/main.adffb5f9.js",
+    "main.js": "/satyasiri/static/js/main.3c5fe4a5.js",
     "static/js/787.d1a3dfa2.chunk.js": "/satyasiri/static/js/787.d1a3dfa2.chunk.js",
     "static/media/logo.svg": "/satyasiri/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/satyasiri/index.html",
     "main.1c8339e1.css.map": "/satyasiri/static/css/main.1c8339e1.css.map",
-    "main.adffb5f9.js.map": "/satyasiri/static/js/main.adffb5f9.js.map",
+    "main.3c5fe4a5.js.map": "/satyasiri/static/js/main.3c5fe4a5.js.map",
     "787.d1a3dfa2.chunk.js.map": "/satyasiri/static/js/787.d1a3dfa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c8339e1.css",
-    "static/js/main.adffb5f9.js"
+    "static/js/main.3c5fe4a5.js"
   ]
 }
