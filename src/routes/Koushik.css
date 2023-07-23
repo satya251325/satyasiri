@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .calendar {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .day {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  .cell {
+    text-align: center;
+    border: 1px solid #ddd;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .number {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; /* Adjust the spacing between week day and date */
+  }
+  
+  .events-for-day {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .events-for-day li {
+    margin-bottom: 5px;
+  }
+  
+  .cell.disabled {
+    background-color: #f0f0f0;
+    pointer-events: none;
+  }
+  
+  .cell.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* New styles for days grid */
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    width: 100%;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  /* Set the width for each column in the regular calendar layout */
+  .row div {
+    width: 100%;
+  }
+
+  .popover {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .popover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .close-button {
+    cursor: pointer;
+    margin-top: 10px;
+  }
